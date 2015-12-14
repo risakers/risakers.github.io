@@ -1,4 +1,6 @@
 /* 
+negativespace.co
+
 #C5C5C5 light grey
 #353535 dark grey
 #7e5e66 purple
@@ -63,6 +65,11 @@ body {
 .card {
 	background-color: #dcdcdc;
 	color: #353535;
+	min-height: 350px;
+}
+
+.card .img {
+
 }
 
 .card .card-action a {
@@ -76,10 +83,16 @@ body {
 
 .card .card-content {
 	padding: 10px;
+	position: relative;
+	min-height: 200px;
 }
 
 .card .card-action {
-	padding: 10px;
+	position: absolute;
+	padding: 5% 0;
+	margin: auto;
+	bottom: 0;
+	left: 5%;
 }
 
 h3 {
@@ -121,18 +134,29 @@ footer.page-footer {
 	background-color: #353535;
 }
 
-.cube {
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	display: inline-block;
+.photoset-grid-lightbox {
+	/*position: relative;*/
+	width: 90%;
+	margin: auto;
 }
 
-.cube, img {
-	height: 200px;
+.cube {
+	/*width: 200px;*/
+	/*height: 200px;*/
+
+	overflow: hidden;
+	/*display: inline-block;*/
+}
+
+.photoset-grid-lightbox img {
+	position: relative;
+	width: 200px;
+	border: 0px;
+	margin: 0px;
 }
 
 .cubes {
+	width: 812px;
 	margin: auto;
 }
 
