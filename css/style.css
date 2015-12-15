@@ -83,9 +83,18 @@ body {
 
 }
 
+.pageheader {
+	padding: 0 10px 0 20px;
+	margin-bottom: 80px;
+}
+
 h3 {
 	color: #353535;
 	font-size: 3em;
+}
+
+h4 {
+	color: #353535;
 }
 
 h5 {
@@ -108,10 +117,26 @@ p {
 	padding-bottom: 20px;
 }
 
+.datapage .intro {
+	width: 75%;
+	margin: auto;
+	margin-bottom: 80px;
+	
+}
+
+.datapage .m6 {
+	text-align: center;
+}
+
+.datapage .m6 img {
+	width: 75%;
+	/*padding: 2% 5%;*/
+	/*margin: 0 auto;*/
+}
+
 .nomargin {
 	margin-bottom: 0px;
 }
-
 
 .dataimg {
 	padding: 10px;
