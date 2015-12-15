@@ -68,9 +68,6 @@ body {
 	min-height: 350px;
 }
 
-.card .img {
-
-}
 
 .card .card-action a {
 	color: #7e5e66;
@@ -134,29 +131,6 @@ footer.page-footer {
 	background-color: #353535;
 }
 
-.photoset-grid-lightbox {
-	/*position: relative;*/
-	width: 90%;
-	margin: auto;
-}
 
-.cube {
-	/*width: 200px;*/
-	/*height: 200px;*/
 
-	overflow: hidden;
-	/*display: inline-block;*/
-}
-
-.photoset-grid-lightbox img {
-	position: relative;
-	width: 200px;
-	border: 0px;
-	margin: 0px;
-}
-
-.cubes {
-	width: 812px;
-	margin: auto;
-}
 

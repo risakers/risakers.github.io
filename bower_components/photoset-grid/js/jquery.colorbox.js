@@ -711,7 +711,7 @@
 			
 			function removeFilter() {
 				if (isIE) {
-					$box[0].style.removeAttribute('filter');
+					$(box[0].style).removeAttr('filter');
 				}
 			}
 			
