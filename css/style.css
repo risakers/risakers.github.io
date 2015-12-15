@@ -24,28 +24,6 @@ font-family: 'Maven Pro', sans-serif;
 	border: 10px;
 }
 
-.data {
-	background-image: url('../img/chart.jpg');	
-}
-
-.web {
-	background-image: url('../img/computer.jpg');
-}
-
-.art {
-	background-image: url('../img/book.jpg');
-}
-
-.middle {
-	height: 250px;
-	background-image: url("../img/lake.jpeg");
-	background-size: cover;
-	/*background-position: 0px -50px;*/
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border: 10px;
-}
-
 body {
 	background-color: #353535;
 	color: #7e5e66;
@@ -57,20 +35,33 @@ body {
 	font-size: 18px;
 }
 
-.brand-logo a {
-	font-size: 32px;
-	color: #7e5e66;
-}
-
 .card {
-	background-color: #dcdcdc;
+	background-color: rgba(114, 169, 143, 0.75);
 	color: #353535;
 	min-height: 350px;
 }
 
+.card .card-content {
+	padding: 10px;
+	position: relative;
+	top: 0;
+	left: 0;
+	min-height: 200px;
+}
+
+.card .card-action {
+	background-color: rgba(114, 169, 143, 0.75);
+	position: absolute;
+	margin: 0;
+	padding: 10px 10px 15px 10px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
 
 .card .card-action a {
-	color: #7e5e66;
+	padding: 10px 0;
+	color: #fff;
 	font-family: 'Maven Pro', sans-serif;
 }
 
@@ -78,18 +69,18 @@ body {
 	color: #7e5e66;
 }
 
-.card .card-content {
-	padding: 10px;
-	position: relative;
-	min-height: 200px;
+.shortcard {
+	min-height: 80px;
 }
 
-.card .card-action {
-	position: absolute;
+.shortcard .card-content {
+	min-height: 65px;
+	/*position: absolute;*/
 	padding: 5% 0;
 	margin: auto;
 	bottom: 0;
 	left: 5%;
+
 }
 
 h3 {
@@ -111,7 +102,7 @@ p {
 }
 
 .row {
-	background-color: #C5C5C5;
+	background-color: rgba(247, 247, 255, 0.80);
 	margin-bottom: 0px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -121,10 +112,43 @@ p {
 	margin-bottom: 0px;
 }
 
+
+.dataimg {
+	padding: 10px;
+}
+
+.dataimg img {
+	height: 300px;
+	width: auto;
+	display: inline-block;
+}
+
 nav {
 	background-color: #72A98F;
 	padding-left: 10px;
 	padding-bottom: 10px;
+}
+
+.data {
+	background-image: url('../img/chart.jpg');	
+}
+
+.web {
+	background-image: url('../img/computer.jpg');
+}
+
+.art {
+	background-image: url('../img/book.jpg');
+}
+
+.middle {
+	height: 250px;
+	background-image: url("../img/lake.jpeg");
+	background-size: cover;
+	/*background-position: 0px -50px;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: 10px;
 }
 
 footer.page-footer {
