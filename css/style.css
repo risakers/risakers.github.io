@@ -22,7 +22,7 @@ body {
 }
 
 .row {
-	background-color: rgba(247, 247, 255, 0.75);
+	background-color: rgba(247, 247, 255, .95);
 	margin-bottom: 0px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -130,8 +130,10 @@ p {
 /*global for all other pages*/
 
 .pageheader {
-	padding: 0 10px 0 20px;
-	margin-bottom: 80px;
+	/*padding: 0 10px 0 20px;*/
+	border-top: 0;
+	padding: 40px 10px 60px 20px;
+	background-color: #C5C5C5;
 }
 
 /*specific to each page*/
@@ -153,14 +155,11 @@ p {
 }
 
 .devpage img {
-	/*max-height: 350px;*/
-	/*text-align: center;*/
 	max-width: 75%;
 	margin: 10px 0;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #000;
-	/*display: inline-block;*/
 }
 
 .datapage img.taller {
@@ -181,6 +180,22 @@ p {
 	font-size: 16px;
 }
 
+.more_info {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.intro.no_border {
+	border-width: 0px;
+}
+
+.more_info li {
+	font-size: 14px;
+	max-width: 65%;
+	margin: 0 auto;
+	text-align: left;
+	color: #353535;
+}
 
 /*the constants*/
 
