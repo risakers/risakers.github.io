@@ -14,6 +14,7 @@
 
 </head>
 <body>
+
 <div class="navbar-fixed">
 <nav>
   <div class="nav-wrapper">
@@ -29,15 +30,14 @@
 
 <div class="heading web"></div>
 
-<div class="row">
-  <div class="row devpage">
-    <div class="pageheader">
-      <h4 class="center">The City Buzz</h4>
-      <h5 class="center">A web app serving local businesses owners and 'Locavores'</h5>
-    </div>
 
-    <div class="intro">
-      <p class="center">Urban social scenes can be niche-y and isolated, but many people are building complex local networks to exclusively fulfill their purchase and service needs through locally-owned businesses! This app is akin to the person who participates in local farm co-ops and movements like 'Shop Small'. <br><br>Shops, venues, restaurants, and more are welcome to post about their upcoming events and promotions. Instead of depending on algorithms to feed their posts or paid ads to be noticed in sidebars, owners can simply and easily tack their event to a virtual bulletin board and get their message out to wanting customers.</p>
+  <div class="pageheader">
+    <h4 class="center">The City Buzz</h4>
+    <h5 class="center">A web app serving local businesses owners and 'Locavores'</h5>
+  </div>
+<div class="row devpage">
+    <div class="intro center">
+      <p>Urban social scenes can be niche-y and isolated, but consumers are increasingly interested in building complex networks to fulfill their purchase and service needs through locally-owned businesses! This app is akin to the person who uses cute nicknames like 'Locavore', participates in local farm co-ops, and supports movements like 'Shop Small'. <br><br>Shops, venues, restaurants, and all locally-rooted businesses are welcome to post their upcoming events and promotions. Instead of depending on algorithms to feed their posts or paid ads to be noticed in sidebars, owners can simply and easily tack their event to a virtual bulletin board and get their message out to wanting customers.</p>
     </div>
 
     <div class="img-center">
@@ -45,7 +45,9 @@
       <img src="img/dev/event_list.jpg">
     </div>
 
-    <div class="intro"><p class="center">Upon Logging in, business owners and consumers see the event feed. All posts by all businesses are shown in order by most recent. Clicking through to 'More info" shows a larger version of the same event frame.</p></div>
+    <div class="intro center">
+      <p>Upon Logging in, business owners and consumers see the 'Buzz' event feed. All posts by businesses are shown in order by most recent. Clicking through to 'More info" shows a larger version of the same event frame. Adding a 'like' to an event gives a shop owner positive feedback and saves a list for users to collect and reference event details.</p>
+    </div>
 
 
     <div class="img-center">
@@ -53,8 +55,28 @@
       <img src="img/dev/user_profile.jpg">
     </div>
 
-    <div class="intro"><p class="center">Businesses and Locavores do have different user experiences and representations on the site. As seen in the nav bar, local consumers are not allowed to upload a new event to the board. On the profile pages, users are able to see their recent likes, or they can view a business page for all of their recent posts.</p></div>
-  </div>
+    <div class="intro center">
+      <p>Businesses and Locavores do have different user experiences and representations on the site. As seen in the nav bar, local consumers are not allowed to upload a new event to the board. On the profile pages, users are able to see their recent likes, or they can view a business page for all of their recent posts.</p>
+    </div>
+
+    <hr><br>
+
+    <div class="intro center no_border">
+      <p>This app is available to test at <a href='http://citybuzz.herokuapp.com/' target= '_blank'>http://citybuzz.herokuapp.com/</a>, but the images previously uploaded through the Paperclip gem are not visible, due to being saved on a previous dyno filesystem. Any new images that you upload will show the usability of the app, once it is hosted with a persistent backing service. <br><br>My future hope for this app is that it will be available as a white-label for any city to brand and use as a community-growing web resource (but it will always have that subtle reference to one of our favorite hometown teams &hearts;).</p>
+    </div>
+
+    <div class="intro no_border">  
+      <h4>Possible Improvements:</h4>
+      <ul>
+      <li>-- Business users will not be able to 'like' any events</li>
+      <li>-- As they already do, event posts will show a title on any index page (event feed or profile), plus a detailed description will be available on the event detail view</li>
+      <li>-- Businesses will be indexed and sorted by type to allow search for specific service</li>
+      <li>-- Height of event panels will be controlled or event panels will nest when they have varying heights</li>
+      <li>-- Add more detailed branding and app-specific terminology, to stand out against similar apps</li>
+      <li>-- Code refactoring, especially for hard-coded 'like' buttons</li>
+      </ul>
+    </div>
+</div>
 
 </body>
 </html>
