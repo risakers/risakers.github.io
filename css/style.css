@@ -180,21 +180,14 @@ p {
 	font-size: 16px;
 }
 
-.more_info {
-	max-width: 75%;
-	margin: 0 auto;
-}
-
 .intro.no_border {
 	border-width: 0px;
 }
 
-.more_info li {
-	font-size: 14px;
-	max-width: 65%;
-	margin: 0 auto;
-	text-align: left;
+.intro li, .intro p {
+	font-size: 15px;
 	color: #353535;
+	font-family: 'Maven Pro', sans-serif;
 }
 
 /*the constants*/
